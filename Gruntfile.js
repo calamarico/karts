@@ -72,6 +72,7 @@ module.exports = function(grunt) {
         files: {
           'build/css/app.min.css': [
             'app/styles/css/bootstrap/bootstrap.css',
+            'app/styles/css/animate/animate.css',
             'app/styles/css/style.css'
           ]
         }

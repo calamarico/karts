@@ -5,10 +5,6 @@
 
 body {
   background-color: @color-black;
-
-  .container {
-    margin-top: @navbar-height;
-  }
 }
 
 @font-face {
@@ -19,4 +15,54 @@ body {
 @font-face {
   font-family: "Stalemate";
   src: url('@{font-path}Stalemate-Regular.ttf') format('truetype');
+}
+
+.menu {
+  height: 100%;
+  width: 100%;
+
+  > .container-circuits {
+    width: 500px;
+    height: 100%;
+    list-style: none;
+
+    > li {
+      width: 500px;
+      height: 80px;
+      display: block;
+
+      > .circuit {
+        width: 200px;
+        height: 100%;
+        float: left;
+        background-color: white;
+        border: 2px solid green;
+        opacity: 0.5;
+
+        &:hover {
+          opacity: 1;
+        }
+      }
+
+      > .detail-circuit {
+        position: relative;
+        float: left;
+        width: 300px;
+        height: 100%;
+        border: 2px solid blue;
+
+        -webkit-animation-duration:0.2s;
+        -moz-animation-duration:0.2s;
+        -ms-animation-duration:0.2s;
+        -o-animation-duration:0.2s;
+        animation-duration:0.2s;
+
+        -webkit-animation-delay:0s;
+        -moz-animation-delay:0s;
+        -ms-animation-delay:0s;
+        -o-animation-delay:0s;
+        animation-delay:0s;
+      }
+    }
+  }
 }
