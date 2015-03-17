@@ -95,6 +95,12 @@ module.exports = function(grunt) {
         flatten: true,
         filter: 'isFile'
       },
+      images: {
+        expand: true,
+        cwd: 'app/styles/imgs',
+        src: '**',
+        dest: 'build/imgs'
+      },
       extras: {
         expand: true,
         cwd: 'app/',
