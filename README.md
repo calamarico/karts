@@ -1,10 +1,9 @@
-Deck Master (MTG)
+Karts Web Project
 =================
-#####http://www.deckmaster.net
 <br/>
 ### Clone our repo
 ```bash
-$ git clone git@github.com:calamarico/deck-master.git
+$ git clone git@github.com:karts/deck-master.git
 ```
 
 ### Install dependencies
@@ -33,4 +32,4 @@ Waiting...
 ```
 
 
-By @kalamarico & @Acido69
+By @kalamarico
